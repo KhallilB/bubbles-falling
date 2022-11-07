@@ -1,0 +1,158 @@
+@keyframes animateBubble {
+    0% {
+        margin-top: -100px;
+    }
+    100% {
+        margin-top: 180vh;
+    }
+}
+
+@keyframes sideWays { 
+    0% { 
+        padding-left: 0;
+    }
+    100% { 
+        padding-left: 10vw;
+    }
+}
+
+.container {
+    position: relative;
+    overflow-y: hidden;
+    width: 100vw;
+    border: solid 1px orange;
+    display: inline;
+}
+
+.bubble {
+    position: absolute;
+    margin-top: -100vh;
+    cursor: pointer;
+}
+
+.bubble-gone { 
+    display:  none;
+    opacity:  0;
+}
+
+.x1 {
+    margin-left: (random($limit: 80 ) + 9) + vw;
+    font-size: 68px;
+    animation: animateBubble (8s) linear, sideWays (6s) ease-in-out infinite alternate;
+}
+
+.x2 {
+    margin-left: (random($limit: 90 ) + 9) + vw;
+    font-size: 44px;
+    animation: animateBubble (9s) linear, sideWays (6s) ease-in-out infinite alternate;
+}
+
+.x3 {
+    margin-left: (random($limit: 90 ) + 9) + vw;
+    font-size: 28px;
+    animation: animateBubble (14s) linear, sideWays (6s) ease-in-out infinite alternate;
+}
+
+.x4 {
+    margin-left: (random($limit: 90 ) + 9) + vw;
+    font-size: 33px;
+    animation: animateBubble (18s) linear, sideWays (6s) ease-in-out infinite alternate;
+}
+
+.x5 {
+    margin-left: (random($limit: 90 ) + 9) + vw;
+    font-size: 26px;
+    animation: animateBubble (23s) linear, sideWays (6s) ease-in-out infinite alternate;
+}
+
+.x6 {
+    margin-left: (random($limit: 90 ) + 9) + vw;
+    font-size: 27px;
+    animation: animateBubble (4s) linear, sideWays (6s) ease-in-out infinite alternate;
+}
+
+.x7 {
+    margin-left: (random($limit: 90 ) + 9) + vw;
+    font-size: 9px;
+    animation: animateBubble (22s) linear, sideWays (6s) ease-in-out infinite alternate;
+}
+
+.x8 {
+    margin-left: (random($limit: 90 ) + 9) + vw;
+    font-size: 100px;
+    animation: animateBubble (19s) linear, sideWays (6s) ease-in-out infinite alternate;
+}
+
+.x9 {
+    margin-left: (random($limit: 90 ) + 9) + vw;
+    font-size: 16px;
+    animation: animateBubble (13s) linear, sideWays (6s) ease-in-out infinite alternate;
+}
+
+.x10 {
+    margin-left: (random($limit: 90 ) + 9) + vw;
+    font-size: 64px;
+    animation: animateBubble (5s) linear, sideWays (6s) ease-in-out infinite alternate;
+}
+
+.x11 {
+    margin-left: (random($limit: 90 ) + 9) + vw;
+    font-size: 46px;
+    animation: animateBubble (23s) linear, sideWays (6s) ease-in-out infinite alternate;
+}
+
+.x12 {
+    margin-left: (random($limit: 90 ) + 9) + vw;
+    font-size: 72px;
+    animation: animateBubble (7s) linear, sideWays (6s) ease-in-out infinite alternate;
+}
+
+.x13 {
+    margin-left: (random($limit: 90 ) + 9) + vw;
+    font-size: 12px;
+    animation: animateBubble (13s) linear, sideWays (6s) ease-in-out infinite alternate;
+}
+
+.x14 {
+    margin-left: (random($limit: 90 ) + 9) + vw;
+    font-size: 22px;
+    animation: animateBubble (14s) linear, sideWays (6s) ease-in-out infinite alternate;
+}
+
+.x15 {
+    margin-left: (random($limit: 90 ) + 9) + vw;
+    font-size: 20px;
+    animation: animateBubble (19s) linear, sideWays (6s) ease-in-out infinite alternate;
+}
+
+.x16 {
+    margin-left: (random($limit: 90 ) + 9) + vw;
+    font-size: 14px;
+    animation: animateBubble (25s) linear, sideWays (6s) ease-in-out infinite alternate;
+}
+
+.x17 {
+    margin-left: (random($limit: 90 ) + 9) + vw;
+    font-size: 28px;
+    animation: animateBubble (9s) linear, sideWays (6s) ease-in-out infinite alternate;
+}
+
+.x18 {
+    margin-left: (random($limit: 90 ) + 9) + vw;
+    font-size: 8px;
+    animation: animateBubble (12s) linear, sideWays (6s) ease-in-out infinite alternate;
+}
+
+.x19 {
+    margin-left: (random($limit: 90 ) + 9) + vw;
+    font-size: 18px;
+    animation: animateBubble (14s) linear, sideWays (6s) ease-in-out infinite alternate;
+}
+
+.x20 {
+    margin-left: (random($limit: 90 ) + 9) + vw;
+    font-size: 29px;
+    animation: animateBubble (8s) linear, sideWays (6s) ease-in-out infinite alternate;
+}
+
+
