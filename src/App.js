@@ -4,7 +4,7 @@ import BubblesFalling from './animations/bubblesFalling';
 
 function App() {
   return (
-    <div style={{ overflowY: 'hidden', height: '100vh', padding: '0' }}>
+    <div style={{ overflowY: 'hidden', overflowX: 'hidden', height: '100vh', padding: '0' }}>
       <BubblesFalling /> 
     </div>
   );

@@ -36,7 +36,7 @@
 }
 
 .x1 {
-    margin-left: (random($limit: 80 ) + 9) + vw;
+    margin-left: (random($limit: 60 ) + 9) + vw;
     font-size: 68px;
     animation: animateBubble (8s) linear, sideWays (6s) ease-in-out infinite alternate;
 }
